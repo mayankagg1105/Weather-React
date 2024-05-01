@@ -1,0 +1,115 @@
+/* Weather.css */
+
+/* Overall layout */
+.simple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, #85C1E9, #5DADE2); */
+    background-image: url(./assets/as3.jpg);
+    transition: 0ms;
+}
+.hot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./assets/as4.jpeg');
+    transition: 0ms;
+}
+.cool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./assets/as5.jpeg');
+    transition: 0ms;
+}
+.warm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./assets/as1.jpg');
+    transition: 0ms;
+}
+.cold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./assets/as2.jpg');
+    transition: 0ms;
+}
+
+/* Search box */
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.search-bar::placeholder {
+    color: #999;
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+}
+
+/* Location box */
+.location-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Weather details */
+.weather-box {
+    margin-top: 20px;
+}
+
+.temp {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.weather {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.feelsLike {
+    margin-top: 20px;
+}
+
+.feelsLike h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
